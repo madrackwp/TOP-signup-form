@@ -112,3 +112,7 @@ form label{
   background-color: rgb(24, 24, 24);
   color: rgb(240,240,240);
 }
+
+input#email:invalid, input#hp-number:invalid{
+  color: red;
+}
