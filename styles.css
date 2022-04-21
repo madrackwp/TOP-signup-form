@@ -20,9 +20,29 @@ input{
   height: 640px
 }
 
+.left-banner .logo-section{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(24, 24, 24, 0.3); 
+  margin-top: 150px;
+  padding: 10px; 
+  align-items: center;
+  justify-content: center;
+}
+
 .left-banner {
   width: 33vw;
   /* height: 500px; */
+}
+
+.left-banner .form-logo{
+  max-width: 80px;
+}
+.left-banner .form-logo-text{
+  font-size: 36px;
+  font-family: 'Akshar', sans-serif;
+  color: rgb(256,265,256);
+  font-weight: 300;
 }
 
 .right-form{
@@ -55,6 +75,12 @@ form label{
 
 .right-form>form > div{
   margin-top:15px;
+}
+
+#password-message{
+  color: red;
+  font-size: 12px;
+  margin: 0px;
 }
 
 /* .input-elm.right-col{
