@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
 @font-face {
   font-family: NorseBold;
-  src: url('/assets/Norse-Bold.otf') format("opentype");
+  src: url('assets/Norse-Bold.otf') format("opentype");
 }
 
 :root{
