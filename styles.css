@@ -88,7 +88,7 @@ form label{
 } */
 
 .main-body .left-banner{
-  background-image: url(/assets/form-image.jpg);
+  background-image: url(assets/form-image.jpg);
   background-position: center;
   background-size:cover;
   background-color: pink;
