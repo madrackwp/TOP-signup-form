@@ -2,6 +2,7 @@ const confirmPasswordField = document.querySelector("#confirm-password")
 const passwordField = document.querySelector("input#password")
 const passwordConfirmMessage = document.querySelector("p#password-message")
 const emailField = document.querySelector("input#email")
+const emailMessage = document.querySelector("p#email-message")
 
 confirmPasswordField.addEventListener("keyup", ()=>{
   if (passwordField.value != confirmPasswordField.value){
@@ -10,4 +11,8 @@ confirmPasswordField.addEventListener("keyup", ()=>{
     passwordConfirmMessage.innerHTML = ""
   }
 })
+
+// emailField.addEventListener("keyup", ()=>{
+//   emailMessage.
+// })
 

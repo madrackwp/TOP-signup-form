@@ -77,7 +77,7 @@ form label{
   margin-top:15px;
 }
 
-#password-message{
+.verification-message{
   color: red;
   font-size: 12px;
   margin: 0px;
@@ -116,3 +116,12 @@ form label{
 input#email:invalid, input#hp-number:invalid{
   color: red;
 }
+
+input:focus{
+  /* border-color: rgba(24, 24, 24, 0.3); */
+  outline-color: #d4924a;
+}
+
+/* input#email:invalid{
+  background-color: pink;
+} */
